@@ -8,15 +8,22 @@ header = ('{0}Logger{1} > {2}'.format(YELLOW, WHITE, END))
 
 os.system('cls')
 print("""
-  o            o__ __o            o__ __o           o__ __o       o__ __o__/_   o__ __o       
- <|>          /v     v\          /v     v\         /v     v\     <|    v       <|     v\      
- / \         />       <\        />       <\       />       <\    < >           / \     <\     
- \o/       o/           \o    o/                o/                |            \o/     o/     
-  |       <|             |>  <|       _\__o__  <|       _\__o__   o__/_         |__  _<|      
- / \       \\           //    \\          |     \\          |     |             |       \     
- \o/         \         /        \         /       \         /    <o>           <o>       \o   
-  |           o       o          o       o         o       o      |             |         v\  
- / \ _\o__/_  <\__ __/>          <\__ __/>         <\__ __/>     / \  _\o__/_  / \         <\ 
+LLLLLLLLLLL                  OOOOOOOOO             GGGGGGGGGGGGG        GGGGGGGGGGGGGEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRR   
+L:::::::::L                OO:::::::::OO        GGG::::::::::::G     GGG::::::::::::GE::::::::::::::::::::ER::::::::::::::::R  
+L:::::::::L              OO:::::::::::::OO    GG:::::::::::::::G   GG:::::::::::::::GE::::::::::::::::::::ER::::::RRRRRR:::::R 
+LL:::::::LL             O:::::::OOO:::::::O  G:::::GGGGGGGG::::G  G:::::GGGGGGGG::::GEE::::::EEEEEEEEE::::ERR:::::R     R:::::R
+  L:::::L               O::::::O   O::::::O G:::::G       GGGGGG G:::::G       GGGGGG  E:::::E       EEEEEE  R::::R     R:::::R
+  L:::::L               O:::::O     O:::::OG:::::G              G:::::G                E:::::E               R::::R     R:::::R
+  L:::::L               O:::::O     O:::::OG:::::G              G:::::G                E::::::EEEEEEEEEE     R::::RRRRRR:::::R 
+  L:::::L               O:::::O     O:::::OG:::::G    GGGGGGGGGGG:::::G    GGGGGGGGGG  E:::::::::::::::E     R:::::::::::::RR  
+  L:::::L               O:::::O     O:::::OG:::::G    G::::::::GG:::::G    G::::::::G  E:::::::::::::::E     R::::RRRRRR:::::R 
+  L:::::L               O:::::O     O:::::OG:::::G    GGGGG::::GG:::::G    GGGGG::::G  E::::::EEEEEEEEEE     R::::R     R:::::R
+  L:::::L               O:::::O     O:::::OG:::::G        G::::GG:::::G        G::::G  E:::::E               R::::R     R:::::R
+  L:::::L         LLLLLLO::::::O   O::::::O G:::::G       G::::G G:::::G       G::::G  E:::::E       EEEEEE  R::::R     R:::::R
+LL:::::::LLLLLLLLL:::::LO:::::::OOO:::::::O  G:::::GGGGGGGG::::G  G:::::GGGGGGGG::::GEE::::::EEEEEEEE:::::ERR:::::R     R:::::R
+L::::::::::::::::::::::L OO:::::::::::::OO    GG:::::::::::::::G   GG:::::::::::::::GE::::::::::::::::::::ER::::::R     R:::::R
+L::::::::::::::::::::::L   OO:::::::::OO        GGG::::::GGG:::G     GGG::::::GGG:::GE::::::::::::::::::::ER::::::R     R:::::R
+LLLLLLLLLLLLLLLLLLLLLLLL     OOOOOOOOO             GGGGGG   GGGG        GGGGGG   GGGGEEEEEEEEEEEEEEEEEEEEEERRRRRRRR     RRRRRRR
 """)
 print ('\n {0}WARNING: Enable access to less secure apps on your email account.{2}  \n -> * ONLY WORK WITH GMAIL * :\n {1}https://www.google.com/settings/security/lesssecureapps{2}'.format(RED, GREEN, END))
 print('\n')
