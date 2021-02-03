@@ -12,5 +12,3 @@ This program is perfect for DuckyScripts and Social Engineers who want to quickl
 
 # WARNING!
 ## Only use this for legal, educational, and ethical purposes
-
-## Thanks so much for supporting me by using my programs
