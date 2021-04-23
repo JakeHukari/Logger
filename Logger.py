@@ -57,7 +57,6 @@ if choice == '1':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-
     sys.exit()
 
 elif choice == '2':
@@ -69,7 +68,6 @@ elif choice == '2':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-
     sys.exit()
 
 elif choice == '3':
@@ -81,7 +79,6 @@ elif choice == '3':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-
     sys.exit()
 
 elif choice == '4':
@@ -93,7 +90,6 @@ elif choice == '4':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-
     sys.exit()
 
 elif choice == '5':
@@ -105,7 +101,6 @@ elif choice == '5':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-
     sys.exit()
 
 elif choice == '6':
@@ -117,7 +112,6 @@ elif choice == '6':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-
     sys.exit()
 
 else:
