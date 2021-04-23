@@ -57,11 +57,7 @@ if choice == '1':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
+
     sys.exit()
 
 elif choice == '2':
@@ -73,11 +69,7 @@ elif choice == '2':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
+
     sys.exit()
 
 elif choice == '3':
@@ -89,11 +81,7 @@ elif choice == '3':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
+
     sys.exit()
 
 elif choice == '4':
@@ -105,11 +93,7 @@ elif choice == '4':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
+
     sys.exit()
 
 elif choice == '5':
@@ -121,11 +105,7 @@ elif choice == '5':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
+
     sys.exit()
 
 elif choice == '6':
@@ -137,11 +117,7 @@ elif choice == '6':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
+
     sys.exit()
 
 else:
