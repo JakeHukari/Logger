@@ -115,4 +115,4 @@ elif choice == '6':
     sys.exit()            
 
 else:
-	sys.exit(RED + 'Wrong choice, Please enter right choice next time.' + END)
+	sys.exit(RED + 'Incorrect choice, Please enter correct choice next time.' + END)
