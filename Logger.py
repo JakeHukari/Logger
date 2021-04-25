@@ -104,7 +104,7 @@ elif choice == '5':
     sys.exit()
 
 elif choice == '6':
-    name = 'absorber.exe'
+    name = 'logger.exe'
     os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest -F log.py')
     os.system('rmdir /S /Q build __pycache__')
