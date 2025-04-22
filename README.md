@@ -5,7 +5,7 @@ This program is perfect for DuckyScripts and Social Engineers who want to quickl
 
 # How To Use
 ###### (Windows Only)
-###### git clone https://github.com/Krypt0c/Logger
+###### git clone https://github.com/JakeHukari/Logger
 ###### cd Logger
 ###### pip install -r requirements.txt
 ###### py Logger.py
