@@ -11,4 +11,4 @@ This program is perfect for DuckyScripts and Social Engineers who want to quickl
 ###### py Logger.py
 ###### make sure to enable less secure apps on your gmail account or the logs will not get emailed to you (https://www.google.com/settings/security/lesssecureapps)
 
-## Only use this for legal, educational, and ethical purposes
+## THIS IS FOR EDUCATIONAL PURPOSES ONLY!!!!!
